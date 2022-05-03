@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+header{
+    background-color: #222831;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h1{
+    margin: 0;
+    color: #eee;
+    font-size: 40px;
+    font-family: 'Fira Sans';
+    text-shadow: 1px 0px 1px #eee;
+}
+.titleBar{
+    height: 3px;
+    background-color: #00adb5;
+    width: 350px;
+    box-shadow: 0px 0px 1px #eee;
+}
+.containerBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: auto;
+    margin-top: 50px;
+}
+section .form1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+}
+section .form2{
+    display: flex;
+    flex-direction: column;
+}
+form input,select {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: 'Open Sans';
+    border-radius: 5px;
+    color: #909090;
+}
+form input, select:focus{
+    outline-color: #70c2e8;
+}
+form input, select::placeholder{
+    color: #909090;
+}
+form label {
+    color: #222831;
+    font-family: 'Open Sans';
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.buttons input{
+    color: #222831;
+    border: 1px solid #eee;
+    background-color: #70c2e8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.buttons input:hover{
+    background-color: #00a1d7;
+}

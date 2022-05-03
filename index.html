@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Cadastro de Aluno</title>
+        <link rel="stylesheet" href="./assets/css/style.css"/>
+        <link rel="shortcut icon" type="imagex/png" href="./images/icon.ico">
+        <meta id="viewport" name="viewport" content="width=device-width, user-scalable=0">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Cormorant+SC:wght@300&family=Fira+Sans:ital@1&family=Gloria+Hallelujah&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Open+Sans&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <div>
+            <h1>Cadastro de Alunos</h1>
+        </div>
+        <div class="titleBar"></div>
+    </header>
+    <section class="containerBody">
+        <div>
+            <form class="form1">
+                <label for="nome">Nome Completo:</label>
+                <input autofocus id="nome" type="text" name="nome" placeholder="Nome Completo"/>
+
+                <label for="rg">RG:</label>
+                <input id="rg" type="text" name="rg" placeholder="00.000.000.0"/>
+
+                <label for="pai">Pai:</label>
+                <input id="pai" type="text" name="pai" placeholder="Nome do Pai"/>
+
+                <label for="escolaridade">Escolaridade:</label>
+                <select>
+                    <option>Ensino Fundamental</option>
+                    <option>Ensino Médio</option>
+                    <option>Ensino Superior</option>
+                </select>
+
+                <label for="telefone">Telefone:</label>
+                <input id="telefone" type="text" name="telefone" placeholder="0000-0000"/>
+
+                <label for="email">E-mail:</label>
+                <input id="email" type="email" name="email" placeholder="exemplo@email.com"/>
+
+                <div class="buttons">
+                <input type="submit" value="Cadastrar" name="cadastrar">
+                <input type="reset" value="Limpar Campos" name="reset">
+                </div>
+            </form>
+            
+        </div>
+        <div>
+            <form class="form2">
+                <label for="nascimento">Data de Nascimento:</label>
+                <input id="nascimento" type="text" name="nascimento" placeholder="__/__/____"/>
+
+                <label for="cpf">CPF:</label>
+                <input id="cpf" type="text" name="cpf" placeholder="000.000.000-00"/>
+
+                <label for="mae">Mãe</label>
+                <input id="mae" type="text" name="mae" placeholder="Nome da Mãe"/>
+
+                <label for="profissao">Profissão</label>
+                <input id="profissao" type="text" name="profissao" placeholder="Profissão"/>
+
+                <label for="celular">Celular</label>
+                <input id="celular" type="text" name="celular" placeholder="(00) 0000-0000"/>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
